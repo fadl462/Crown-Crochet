@@ -93,3 +93,44 @@ background:#d79aab;color:#111;transform:translateY(-4px)
     border-radius:50%;
     background:rgba(255,255,255,.35);
 }
+
+
+/* Crown & Crochet luxury Book Now button */
+.links .nav-booking{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:9px;
+    height:42px;
+    padding:0 18px 0 10px;
+    border-radius:999px;
+    background:linear-gradient(135deg,#e5b1c1,#cd8da5);
+    color:#180f12;
+    border:1px solid rgba(255,255,255,.35);
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:.2px;
+    box-shadow:0 8px 22px rgba(215,154,171,.28);
+    transition:.25s ease;
+}
+.links .nav-booking:hover{
+    transform:translateY(-2px);
+    color:#180f12;
+    box-shadow:0 14px 32px rgba(215,154,171,.38);
+}
+.booking-icon{
+    width:24px;
+    height:24px;
+    display:grid;
+    place-items:center;
+    border-radius:50%;
+    background:rgba(255,255,255,.45);
+    font-size:13px;
+}
+.booking-arrow{
+    font-size:15px;
+    transition:.25s;
+}
+.nav-booking:hover .booking-arrow{
+    transform:translate(2px,-2px);
+}
