@@ -173,3 +173,22 @@ background:#d79aab;color:#111;transform:translateY(-4px)
  min-height:650px;
 }
 }
+
+/* Crown & Crochet Homepage V4 polish */
+.hero .content{max-width:650px}
+.hero .content>p{line-height:1.65}
+.dark2 .cards{grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch}
+.dark2 .card{min-height:180px}
+.faq-cards{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
+.faq-item{cursor:pointer}
+.faq-item summary{list-style:none;cursor:pointer;font-size:18px;font-weight:600;color:#fff;display:flex;justify-content:space-between;gap:18px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary:after{content:"+";color:#d79aab;font-size:22px;font-weight:400}
+.faq-item[open] summary:after{content:"−"}
+.faq-item p{margin-top:16px;color:#b9b1b4;line-height:1.65}
+@media(max-width:900px){
+.dark2 .cards,.faq-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:620px){
+.dark2 .cards,.faq-cards{grid-template-columns:1fr}
+}
