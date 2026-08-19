@@ -192,3 +192,92 @@ background:#d79aab;color:#111;transform:translateY(-4px)
 @media(max-width:620px){
 .dark2 .cards,.faq-cards{grid-template-columns:1fr}
 }
+
+/* Homepage V5: final visual balance */
+.services-grid{
+    display:grid !important;
+    grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+    gap:18px;
+    align-items:stretch;
+}
+.service-card{
+    min-height:245px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+.service-card h3{font-size:22px}
+.service-card p{flex:1}
+.service-card>a{
+    color:var(--rose);
+    font-size:12px;
+    font-weight:700;
+    text-decoration:none;
+    margin-top:20px;
+}
+.service-card:hover{transform:translateY(-7px)}
+.faq-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:18px;
+}
+.faq-card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:24px;
+    min-height:150px;
+    transition:.25s ease;
+}
+.faq-card:hover{
+    border-color:rgba(215,154,171,.45);
+    transform:translateY(-4px);
+}
+.faq-question{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:15px;
+    color:#fff;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:20px;
+    line-height:1.2;
+}
+.faq-question span{
+    color:var(--rose);
+    font-family:Inter,sans-serif;
+    font-size:22px;
+}
+.faq-card p{
+    color:var(--muted);
+    font-size:13px;
+    line-height:1.65;
+    margin:18px 0 0;
+}
+.mini-proof{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:26px 0;
+    padding:13px 15px;
+    width:max-content;
+    max-width:100%;
+    border:1px solid var(--line);
+    border-radius:12px;
+    background:rgba(255,255,255,.025);
+}
+.mini-proof>span{
+    width:30px;height:30px;border:1px solid rgba(215,154,171,.5);
+    border-radius:50%;display:grid;place-items:center;color:var(--rose);
+}
+.mini-proof strong,.mini-proof small{display:block}
+.mini-proof strong{font-size:12px}
+.mini-proof small{font-size:10px;color:var(--muted);margin-top:3px}
+@media(max-width:1000px){
+    .services-grid{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
+    .faq-grid{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+    .services-grid{grid-template-columns:1fr !important}
+    .service-card{min-height:0}
+}
