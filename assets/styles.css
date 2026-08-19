@@ -130,37 +130,46 @@ background:#d79aab;color:#111;transform:translateY(-4px)
 }
 
 
-/* Crown & Crochet homepage hero alignment refinement */
+/* Crown & Crochet Homepage V3 luxury polish */
+.hero{
+    min-height:760px;
+}
 .hero .content{
-    max-width:620px;
-    padding-left:45px;
-    padding-top:35px;
+    max-width:560px;
+    padding-top:80px;
+    padding-left:80px;
 }
-
 .hero h1{
-    max-width:600px;
-    line-height:.95;
+    font-size:clamp(58px,6vw,92px);
+    letter-spacing:-2px;
 }
-
 .hero p{
-    max-width:470px;
+    max-width:440px;
+    line-height:1.8;
 }
-
-.hero .actions{
-    margin-top:28px;
+.trust{
+    position:relative;
+    z-index:3;
 }
-
-/* Move hero composition inward for luxury editorial balance */
-@media(min-width:1200px){
-    .hero .content{
-        margin-left:55px;
-    }
+.quick-booking{
+    border-radius:22px;
 }
-
-@media(max-width:768px){
-    .hero .content{
-        padding-left:20px;
-        padding-right:20px;
-        margin-left:0;
-    }
+.section h2{
+    letter-spacing:-.5px;
+}
+.cards .card{
+    transition:.3s ease;
+}
+.cards .card:hover{
+    transform:translateY(-6px);
+    border-color:rgba(215,154,171,.5);
+}
+@media(max-width:900px){
+.hero .content{
+ padding-left:25px;
+ padding-top:50px;
+}
+.hero{
+ min-height:650px;
+}
 }
