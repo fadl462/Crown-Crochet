@@ -68,3 +68,63 @@ background:#d79aab;color:#111;transform:translateY(-4px)
 
 /* Homepage V2 refinement */
 .hero .card strong{display:block;margin-top:8px}
+
+
+/* Homepage final alignment and header CTA correction */
+.nav .btn.primary {
+    all: unset;
+}
+.links .nav-booking{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    height:42px;
+    padding:0 18px 0 10px;
+    border-radius:999px;
+    background:linear-gradient(135deg,#e5b1c1,#ce8fa5);
+    color:#140e11;
+    font-size:12px;
+    font-weight:800;
+    white-space:nowrap;
+    box-shadow:0 8px 25px rgba(215,154,171,.25);
+}
+.booking-icon{
+    display:grid;
+    place-items:center;
+    width:23px;height:23px;
+    border-radius:50%;
+    background:rgba(255,255,255,.4);
+}
+.hero .content{
+    max-width:650px;
+    padding-top:90px;
+    padding-bottom:80px;
+}
+.hero h1{
+    line-height:.95;
+    margin-bottom:22px;
+}
+.hero p{
+    max-width:520px;
+}
+.trust-grid{
+    transform:translateY(-20px);
+}
+.section{
+    overflow:hidden;
+}
+.split{
+    align-items:center;
+    gap:70px;
+}
+.image-card img{
+    object-fit:cover;
+}
+@media(max-width:900px){
+.hero .content{
+ padding-top:55px;
+}
+.links .nav-booking{
+ width:auto;
+}
+}
