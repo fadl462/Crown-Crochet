@@ -39,3 +39,29 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height
 
 .whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:80;background:#25d366;color:#fff;padding:14px 18px;border-radius:999px;font-size:13px;font-weight:800;box-shadow:0 15px 35px rgba(0,0,0,.3)}
 .whatsapp-float:hover{transform:translateY(-3px)}
+
+/* Premium Crown & Crochet header/footer refinement */
+.nav{
+background:linear-gradient(180deg,rgba(10,8,10,.98),rgba(10,8,10,.82));
+border-bottom:1px solid rgba(215,154,171,.22);
+box-shadow:0 12px 35px rgba(0,0,0,.35);
+}
+.nav .inner{height:88px}
+.brand img{width:52px;height:52px;filter:drop-shadow(0 0 12px rgba(215,154,171,.3))}
+.brand b{font-size:26px;letter-spacing:.5px}
+.brand span{letter-spacing:4px;font-size:10px}
+.links a{font-weight:600}
+.links .btn.primary{border-radius:14px;box-shadow:0 12px 30px rgba(215,154,171,.25)}
+.footer{
+background:radial-gradient(circle at 15% 0%,rgba(215,154,171,.14),transparent 30%),#070607;
+padding-top:85px
+}
+.footer h4{color:#fff;letter-spacing:.5px}
+.footer a:hover{color:#d79aab}
+.footer .social a{
+width:42px;height:42px;
+border-color:rgba(215,154,171,.35)
+}
+.footer .social a:hover{
+background:#d79aab;color:#111;transform:translateY(-4px)
+}
