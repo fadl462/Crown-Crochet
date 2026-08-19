@@ -65,3 +65,31 @@ border-color:rgba(215,154,171,.35)
 .footer .social a:hover{
 background:#d79aab;color:#111;transform:translateY(-4px)
 }
+
+
+/* FINAL HEADER CTA FIX */
+.links > .btn.primary,
+.links .btn.primary {
+    border-radius:999px !important;
+    padding:10px 18px !important;
+    min-height:46px;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:linear-gradient(135deg,#e4adbd,#cc8ca2) !important;
+    color:#160f12 !important;
+    box-shadow:0 8px 24px rgba(215,154,171,.25);
+    font-size:12px;
+}
+.links > .btn.primary:hover,
+.links .btn.primary:hover {
+    transform:translateY(-2px);
+}
+.nav-booking-icon {
+    width:22px;
+    height:22px;
+    display:inline-grid;
+    place-items:center;
+    border-radius:50%;
+    background:rgba(255,255,255,.35);
+}
