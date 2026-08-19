@@ -379,3 +379,8 @@ background:#d79aab;color:#111;transform:translateY(-4px)
     .testimonial-feature{padding:34px 25px}
     .testimonial-feature blockquote{font-size:24px}
 }
+
+/* V7 live-render correction */
+.transformation-section .transformation-feature{margin-top:10px}
+.transformation-section .transformation-copy{padding-right:20px}
+.footer .copyright{font-size:11px}
