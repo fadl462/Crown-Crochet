@@ -128,3 +128,39 @@ background:#d79aab;color:#111;transform:translateY(-4px)
  width:auto;
 }
 }
+
+
+/* Crown & Crochet homepage hero alignment refinement */
+.hero .content{
+    max-width:620px;
+    padding-left:45px;
+    padding-top:35px;
+}
+
+.hero h1{
+    max-width:600px;
+    line-height:.95;
+}
+
+.hero p{
+    max-width:470px;
+}
+
+.hero .actions{
+    margin-top:28px;
+}
+
+/* Move hero composition inward for luxury editorial balance */
+@media(min-width:1200px){
+    .hero .content{
+        margin-left:55px;
+    }
+}
+
+@media(max-width:768px){
+    .hero .content{
+        padding-left:20px;
+        padding-right:20px;
+        margin-left:0;
+    }
+}
